@@ -19,20 +19,20 @@ except Exception as e:
 sorted_data = []
 
 # Selection sort implementation
-while data:             # Continue until data is empty
-    min_el = data[0]    # Assume the first element is the minimum
-    min_el_index = 0    # Index of the minimum element
+while data: # Continue until data is empty
+    current_min = data[0]   # Assume the first element is the minimum
+    current_min_index = 0   # Index of the minimum element
     
     # Find the minimum element in the data
     for i in range(1, len(data)):    # Start from the second element
-        if data[i] < min_el:
-            min_el = data[i]
-            min_el_index = i
+        if data[i] < current_min:
+            current_min = data[i]
+            current_min_index = i
     
     # Append the minimum element to the sorted list
-    sorted_data.append(min_el)
+    sorted_data.append(current_min)
 
     # Remove the minimum element from the original list
-    data.pop(min_el_index)
+    data.pop(current_min_index)
 
 print(sorted_data)
