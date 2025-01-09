@@ -1,7 +1,7 @@
 # Sorting Algorithms
 
-## bubble_sort
-Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+## bubble_sort +
+O(N^2) Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
 
 ## heap_sort
 Heap sort is a comparison-based sorting algorithm that uses a binary heap data structure to sort elements.
