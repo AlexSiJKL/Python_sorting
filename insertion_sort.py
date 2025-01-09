@@ -16,8 +16,6 @@ except Exception as e:
     print("Failed to read file:", e)
     data = []
 
-sorted_data = []
-
 # Insertion sort implementation
 def insertion_sort(arr):
     for i in range(1, len(arr)):

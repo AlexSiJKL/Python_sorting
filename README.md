@@ -6,10 +6,10 @@ Bubble sort is a simple sorting algorithm that repeatedly steps through the list
 ## heap_sort
 Heap sort is a comparison-based sorting algorithm that uses a binary heap data structure to sort elements.
 
-## insertion_sort
+## insertion_sort +
 Insertion sort is a simple sorting algorithm that builds a sorted array (or list) one element at a time.
 
-## merge_sort
+## merge_sort +
 Merge sort is an efficient, stable, divide-and-conquer sorting algorithm that splits the array into sub-arrays, sorts them, and then merges them back together.
 
 ## selection_sort +
