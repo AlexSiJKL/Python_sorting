@@ -16,23 +16,25 @@ except Exception as e:
     print("Failed to read file:", e)
     data = []
 
-sorted_data = []
-
 # Selection sort implementation
-while data: # Continue until data is empty
-    current_min = data[0]   # Assume the first element is the minimum
-    current_min_index = 0   # Index of the minimum element
-    
-    # Find the minimum element in the data
-    for i in range(1, len(data)):    # Start from the second element
-        if data[i] < current_min:
-            current_min = data[i]
-            current_min_index = i
-    
-    # Append the minimum element to the sorted list
-    sorted_data.append(current_min)
+def selection_sort(arr):
+    sorted_data = []
+    while data: # Continue until data is empty
+        current_min = arr[0]   # Assume the first element is the minimum
+        current_min_index = 0   # Index of the minimum element
+        
+        # Find the minimum element in the data
+        for i in range(1, len(arr)):    # Start from the second element
+            if arr[i] < current_min:
+                current_min = arr[i]
+                current_min_index = i
+        
+        # Append the minimum element to the sorted list
+        sorted_data.append(current_min)
 
-    # Remove the minimum element from the original list
-    data.pop(current_min_index)
+        # Remove the minimum element from the original list
+        arr.pop(current_min_index)
 
-print(sorted_data)
+    return sorted_data
+
+print(selection_sort(data))
