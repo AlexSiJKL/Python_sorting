@@ -5,8 +5,10 @@ Bubble sort is a simple sorting algorithm that repeatedly steps through the list
 
 The time complexity of Bubble Sort is O(N^2), where N is the size of the array.
 
-## heap_sort
+## heap_sort +
 Heap sort is a comparison-based sorting algorithm that uses a binary heap data structure to sort elements.
+
+The time complexity selection_sort is O(N*LogN), where N is the size of the array.
 
 ## insertion_sort +
 Insertion sort is a simple sorting algorithm that builds a sorted array (or list) one element at a time.
